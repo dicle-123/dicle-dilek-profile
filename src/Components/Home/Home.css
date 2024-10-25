@@ -1,0 +1,57 @@
+.cv-image {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 60%;
+  margin-left: 120px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 400px;
+}
+
+body {
+  background: linear-gradient(135deg, rgb(132, 110, 58), rgb(179, 150, 80));
+  font-family: "Roboto", sans-serif;
+}
+
+.btngroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0; /* margin-top kaldırıldı */
+  justify-content: center; /* Dikey eksende ortala */
+  align-items: center; /* Yatay eksende ortala */
+  /* Sayfanın tamamını kapla */
+  position: relative;
+  top: -80px;
+}
+.btn {
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(151, 143, 101); /* Altın sarısı bir buton */
+  color: white;
+  width: 700px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease; /* Yumuşak geçiş efekti */
+}
+.btn:hover {
+  background-color: white; /* Arka plan rengini beyaz yap */
+  color: rgb(151, 143, 101); /* Yazı rengini altın sarısı yap */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Hover sırasında gölgeyi büyüt */
+}
+.h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
+  margin-right: 300px;
+}
