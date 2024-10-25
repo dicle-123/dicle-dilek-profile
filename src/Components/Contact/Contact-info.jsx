@@ -15,14 +15,20 @@ function Contact() {
         <button onClick={() => navigate("/contact-info")} className="btn">
           Contact İnformation
         </button>
-        <button className="btn">Educational İnformation</button>
+        <button
+          onClick={() => navigate("/educational-information")}
+          className="btn"
+        >
+          Educational İnformation
+        </button>
         <button className="btn">Practical Experience</button>
-        <button className="btn">Completed Courses</button>
+        <button className="btn">Acquired skills</button>
       </div>
       <div className="contact-info">
         <p>
           <span className="spn">Name:</span>Dicle DİLEK
         </p>
+
         <p>
           <span className="spn">PhoneNumber:</span>05385442919
         </p>

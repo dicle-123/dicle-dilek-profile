@@ -28,8 +28,13 @@ function Home() {
         >
           Educational İnformation
         </button>
-        <button className="btn">Practical Experience</button>
-        <button className="btn">Completed Courses</button>
+        <button
+          onClick={() => navigate("/practical-experience")}
+          className="btn"
+        >
+          Practical Experience
+        </button>
+        <button className="btn">Acquired skills</button>
       </div>
     </div>
   );

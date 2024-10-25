@@ -16,13 +16,18 @@ function Education() {
           Contact İnformation
         </button>
         <button
-          onClick={() => navigate("educational-information")}
+          onClick={() => navigate("/educational-information")}
           className="btn"
         >
           Educational İnformation
         </button>
-        <button className="btn">Practical Experience</button>
-        <button className="btn">Completed Courses</button>
+        <button
+          onClick={() => navigate("/practical-experience")}
+          className="btn"
+        >
+          Practical Experience
+        </button>
+        <button className="btn">Acquired skills</button>
       </div>
       <div className="educations">
         <h1 className="h">Education</h1>

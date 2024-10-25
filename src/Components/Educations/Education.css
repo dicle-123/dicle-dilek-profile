@@ -21,5 +21,5 @@
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
   padding: 5px 10px;
-  border-radius: 5px; /* Köşeleri yumuşatmak için */
+  border-radius: 15px; /* Köşeleri yumuşatmak için */
 }
