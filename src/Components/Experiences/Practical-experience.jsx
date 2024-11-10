@@ -15,7 +15,7 @@ function Experiences() {
           Contact İnformation
         </button>
         <button
-          onClick={() => navigate("educational-information")}
+          onClick={() => navigate("/educational-information")}
           className="btn"
         >
           Educational İnformation
@@ -26,63 +26,66 @@ function Experiences() {
         >
           Practical Experience
         </button>
-        <button className="btn">Acquired skills</button>
+        <button onClick={() => navigate("/acquired-skils")} className="btn">
+          Acquired skills
+        </button>
       </div>
-      <div>
-        <h1>Personal Projects</h1>
-        <h2>Frontend Developer</h2>
-        <p>
-          <span>Company:</span> Self-employed (GitHub Projects)
+      <div className="div">
+        <h1 className="h">Personal Projects</h1>
+        <h2 className="ff">Frontend Developer</h2>
+        <p className="pp">
+          <span className="span">Company:</span> Self-employed (GitHub Projects)
         </p>
-        <p>
-          <span>Dates:</span> January 2023 - Present
+        <p className="pp">
+          <span className="span">Dates:</span> January 2023 - Present
         </p>
 
-        <h3>Responsibilities:</h3>
+        <h2 className="ff">Responsibilities</h2>
         <ul>
           <li>
-            <strong>Shopping Cart Project (React):</strong>
-            <p>
+            <strong className="ppp">Shopping Cart Project (React):</strong>
+            <p className="prag">
               Developed a shopping cart application with dynamic product
               listings, quantity adjustment, and Context API for managing global
               state.
             </p>
           </li>
           <li>
-            <strong>Library Project:</strong>
-            <p>
+            <strong className="ppp">Library Project:</strong>
+            <p className="prag">
               Designed a digital library management system with an intuitive
               user interface for easy navigation and book management.
             </p>
           </li>
           <li>
-            <strong>Weather App:</strong>
-            <p>
+            <strong className="ppp">Weather App:</strong>
+            <p className="prag">
               Integrated a weather API to display real-time weather information
               based on user location.
             </p>
           </li>
           <li>
-            <strong>Music Player:</strong>
-            <p>
+            <strong className="ppp">Music Player:</strong>
+            <p className="prag">
               Built a music player application following front-end design best
               practices, with custom controls and playlist management.
             </p>
           </li>
           <li>
-            <strong>Continuous Improvement:</strong>
-            <p>
+            <strong className="ppp">Continuous Improvement:</strong>
+            <p className="prag">
               Regularly update projects by incorporating feedback and adding new
               features to enhance functionality.
             </p>
           </li>
+          <li>
+            <strong className="ppp">Additional Training:</strong>
+            <p className="prag">
+              Completed The Odin Project course, which involved hands-on
+              projects and practical exercises in frontend development.
+            </p>
+          </li>
         </ul>
-
-        <h3>Additional Training:</h3>
-        <p>
-          Completed The Odin Project course, which involved hands-on projects
-          and practical exercises in frontend development.
-        </p>
       </div>
     </div>
   );

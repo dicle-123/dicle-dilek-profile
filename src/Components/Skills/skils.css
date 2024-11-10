@@ -1,0 +1,99 @@
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.h22 {
+  text-align: center;
+  font-size: 35px;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
+  padding: 5px 10px;
+  border-radius: 15px; /* Köşeleri yumuşatmak için */
+  max-width: 1000px;
+  margin: auto;
+}
+
+.ul {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Siyah gölge ile daha belirgin */
+  font-weight: bold; /* Yazıyı daha kalın yaparak belirginleştirme */
+}
+/* .btn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.btn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 30px;
+}
+
+.skills-list {
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .btngroup2 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .h22 {
+    text-align: center;
+    font-size: 34px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 50px; /* Köşeleri yumuşatmak için */
+    width: 100%;
+    margin: auto;
+  }
+  .ul {
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .btngroup2 {
+    margin-bottom: 30px;
+  }
+  .h22 {
+    font-size: 29px;
+    margin: auto;
+  }
+  .ul {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .btn {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .h22 {
+    font-size: 25px;
+    margin: auto;
+  }
+  .ul {
+    text-align: center;
+    font-size: 24px;
+  }
+  .btngroup2 {
+    margin-top: 20px;
+    width: 80%;
+  }
+}

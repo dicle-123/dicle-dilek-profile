@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="bigdiv">
       <div className="container">
         <img className="cv-image" src="Assets/dicle.jpg" alt="cv-image" />
         <div>
@@ -34,7 +34,9 @@ function Home() {
         >
           Practical Experience
         </button>
-        <button className="btn">Acquired skills</button>
+        <button onClick={() => navigate("/acquired-skils")} className="btn">
+          Acquired skills
+        </button>
       </div>
     </div>
   );

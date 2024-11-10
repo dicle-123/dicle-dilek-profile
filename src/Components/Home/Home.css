@@ -55,3 +55,124 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
   margin-right: 300px;
 }
+.bigdiv {
+  background: linear-gradient(
+    135deg,
+    rgb(120, 59, 30) 0%,
+    rgb(42, 144, 110) 100%
+  );
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .container {
+    flex-direction: column;
+    gap: 20px; /* Gap küçültüldü */
+  }
+
+  .bigdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+
+    padding: 20px;
+  }
+
+  .cv-image {
+    width: 300px; /* Mobilde daha küçük genişlik */
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 10px 0px; /* Alt kenarda 20px boşluk */
+  }
+
+  .btngroup {
+    display: flex;
+    width: 80%;
+    margin-top: 100px; /* Buton grubunun üstünde 20px boşluk */
+  }
+
+  .btn {
+    font-size: 25px; /* Daha küçük font boyutu */
+    padding: 10px 15px; /* Padding'i mobil için ayarla */
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+    gap: 20px; /* Gap küçültüldü */
+  }
+
+  .bigdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+
+    padding: 20px;
+  }
+
+  .cv-image {
+    width: 300px; /* Mobilde daha küçük genişlik */
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 10px 0px; /* Alt kenarda 20px boşluk */
+  }
+
+  .btngroup {
+    display: flex;
+    width: 80%;
+    margin-top: 100px; /* Buton grubunun üstünde 20px boşluk */
+  }
+
+  .btn {
+    font-size: 25px; /* Daha küçük font boyutu */
+    padding: 10px 15px; /* Padding'i mobil için ayarla */
+    width: 100%; /* Kenarlarda boşluk bırak */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .cv-image {
+    width: 200px; /* Daha küçük genişlik */
+    box-shadow: none; /* Gölgeyi kaldır */
+  }
+
+  .h1 {
+    font-size: 23px;
+    margin: 0;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 8px 12px; /* Küçük padding */
+    width: 100%; /* Tam genişlik */
+  }
+}

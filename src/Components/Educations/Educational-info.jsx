@@ -27,7 +27,9 @@ function Education() {
         >
           Practical Experience
         </button>
-        <button className="btn">Acquired skills</button>
+        <button onClick={() => navigate("/acquired-skils")} className="btn">
+          Acquired skills
+        </button>
       </div>
       <div className="educations">
         <h1 className="h">Education</h1>

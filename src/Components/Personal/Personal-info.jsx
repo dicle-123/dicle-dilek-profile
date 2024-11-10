@@ -18,8 +18,15 @@ function PersonalInfo() {
         >
           Educational İnformation
         </button>
-        <button className="btn">Practical Experience</button>
-        <button className="btn">Acquired skills</button>
+        <button
+          onClick={() => navigate("/practical-experience")}
+          className="btn"
+        >
+          Practical Experience
+        </button>
+        <button onClick={() => navigate("/acquired-skils")} className="btn">
+          Acquired skills
+        </button>
       </div>
       <p className="p">
         I am 31 years old, married, and a mother of one. I was born in Erzurum,

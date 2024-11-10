@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .spn {
   color: black;
@@ -25,5 +26,68 @@
 
   font-style: oblique;
   margin-top: 20px;
-  line-height: 1.6;
+  line-height: 1.4;
+}
+@media (max-width: 1024px) {
+  .container2 {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .btngroup2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .btngroup2 {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+
+  .contact-info {
+    font-size: 25px;
+    margin-top: 5px;
+    line-height: 1.2;
+    text-align: center;
+    width: 80%;
+  }
+  .spn {
+    color: black;
+    font-size: 28px;
+  }
+  .btn {
+    font-size: 25px;
+  }
+
+  body {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+}
+
+@media (max-width: 480px) {
+  .btngroup2 {
+    margin: auto;
+  }
+  body {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .container2 {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .contact-info {
+    font-size: 22px;
+
+    line-height: 1.1;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .spn {
+    color: black;
+    font-size: 25px;
+  }
+  .btn {
+    font-size: 25px;
+  }
 }

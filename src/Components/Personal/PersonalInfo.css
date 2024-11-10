@@ -17,6 +17,7 @@ body {
     rgb(42, 144, 110) 100%
   );
 }
+
 .btngroup1 {
   margin-top: 10px;
   display: flex;
@@ -32,4 +33,48 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1024px) {
+  .p {
+    font-size: 26px;
+    width: 80%;
+  }
+
+  .container1 {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+    height: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .btngroup1 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .btn {
+    font-size: 30px;
+  }
+  .p {
+    font-size: 22px;
+    width: 85%;
+    color: #ffffff;
+  }
+  .container1 {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+    height: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .btngroup1 {
+    width: 80%;
+    font-size: 35px;
+  }
+
+  .p {
+    font-size: 21px;
+    width: 85%;
+    color: #ffffff;
+    margin-bottom: 0;
+    object-fit: cover;
+  }
 }

@@ -1,7 +1,115 @@
 .cont4 {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
 .btngroup4 {
   display: flex;
   flex-direction: column;
+}
+
+.span {
+  font-size: 25px;
+  color: antiquewhite;
+  font-weight: bolder;
+}
+.pp {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-align: center;
+}
+.ppp {
+  color: antiquewhite;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.prag {
+  font-size: 19px;
+  color: black;
+  font-weight: 800;
+
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.ff {
+  text-align: center;
+  font-size: 30px;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
+  padding: 5px 10px;
+  border-radius: 15px; /* Köşeleri yumuşatmak için */
+  max-width: 800px;
+  margin: auto;
+}
+.div {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cont4 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  .btngroup4 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 780px) {
+  .btngroup4 {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .ff {
+    font-size: 27px;
+    border-radius: 50px; /* Köşeleri yumuşatmak için */
+    width: 80%;
+    margin: auto;
+  }
+  .btn {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .btngroup4 {
+    width: 80%;
+  }
+  .pp {
+    font-size: 19px;
+  }
+
+  .span {
+    font-size: 23px;
+  }
+  .ff {
+    font-size: 25px;
+  }
+  .ppp {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  .prag {
+    font-size: 18px;
+  }
+  .div {
+    margin: auto;
+  }
+  .pp {
+    width: 100%;
+  }
 }
