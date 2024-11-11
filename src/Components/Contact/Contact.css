@@ -85,9 +85,12 @@
 
   .spn {
     color: black;
-    font-size: 25px;
+    font-size: 22px;
   }
   .btn {
-    font-size: 25px;
+    font-size: 24px;
+  }
+  .newp {
+    font-size: 20px;
   }
 }

@@ -32,17 +32,17 @@ function Contact() {
         </button>
       </div>
       <div className="contact-info">
-        <p>
+        <p className="newp">
           <span className="spn">Name:</span>Dicle DİLEK
         </p>
 
-        <p>
+        <p className="newp">
           <span className="spn">PhoneNumber:</span>05385442919
         </p>
-        <p>
+        <p className="newp">
           <span className="spn">Email:</span>dicledilek888@gmail.com
         </p>
-        <p>
+        <p className="newp">
           <span className="spn">Location:</span>500th street
           Kayapınar/DİYARBAKIR
         </p>
