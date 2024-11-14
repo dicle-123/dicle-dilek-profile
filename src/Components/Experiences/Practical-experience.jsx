@@ -41,8 +41,8 @@ function Experiences() {
         </p>
 
         <h2 className="ff">Responsibilities</h2>
-        <ul>
-          <li>
+        <ul className="project-list">
+          <li className="project-item">
             <strong className="ppp">Shopping Cart Project (React):</strong>
             <p className="prag">
               Developed a shopping cart application with dynamic product
@@ -50,35 +50,35 @@ function Experiences() {
               state.
             </p>
           </li>
-          <li>
+          <li className="project-item">
             <strong className="ppp">Library Project:</strong>
             <p className="prag">
               Designed a digital library management system with an intuitive
               user interface for easy navigation and book management.
             </p>
           </li>
-          <li>
+          <li className="project-item">
             <strong className="ppp">Weather App:</strong>
             <p className="prag">
               Integrated a weather API to display real-time weather information
               based on user location.
             </p>
           </li>
-          <li>
+          <li className="project-item">
             <strong className="ppp">Music Player:</strong>
             <p className="prag">
               Built a music player application following front-end design best
               practices, with custom controls and playlist management.
             </p>
           </li>
-          <li>
+          <li className="project-item">
             <strong className="ppp">Continuous Improvement:</strong>
             <p className="prag">
               Regularly update projects by incorporating feedback and adding new
               features to enhance functionality.
             </p>
           </li>
-          <li>
+          <li className="project-item">
             <strong className="ppp">Additional Training:</strong>
             <p className="prag">
               Completed The Odin Project course, which involved hands-on

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { FaUser, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import "./Contact.css";
 
 function Contact() {
@@ -33,16 +34,20 @@ function Contact() {
       </div>
       <div className="contact-info">
         <p className="newp">
-          <span className="spn">👤 Name:</span> Dicle DİLEK
+          <FaUser className="icon" />
+          <span className="spn"> Name:</span> Dicle DİLEK
         </p>
         <p className="newp">
-          <span className="spn">📞 Phone Number:</span> 05385442919
+          <FaPhone className="icon" />
+          <span className="spn"> Phone Number:</span> 05385442919
         </p>
         <p className="newp">
-          <span className="spn">✉️ Email:</span> dicledilek888@gmail.com
+          <FaEnvelope className="icon" />
+          <span className="spn"> Email:</span> dicledilek888@gmail.com
         </p>
         <p className="newp">
-          <span className="spn">📍 Location:</span> 500th street,
+          <FaMapMarkerAlt className="icon" />
+          <span className="spn"> Location:</span> 500th street,
           Kayapınar/DİYARBAKIR
         </p>
       </div>

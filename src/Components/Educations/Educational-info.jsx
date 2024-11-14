@@ -32,7 +32,7 @@ function Education() {
         </button>
       </div>
       <div className="educations">
-        <h1 className="h">Education</h1>
+        <h1 className="h11">EDUCATİON</h1>
         <h2 className="h2">FIRAT UNİVERSİTY</h2>
         <p className="p">Bachelor's Degree in Computer Engineering</p>
         <p className="p">September 2013 - January 2019</p>

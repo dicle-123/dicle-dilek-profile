@@ -13,8 +13,10 @@
   margin-top: 20px;
 }
 .spn {
-  color: black;
-  font-size: 35px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.newp {
   font-weight: bolder;
 }
 
@@ -28,12 +30,21 @@
   margin-top: 20px;
   line-height: 1.4;
 }
+.icon {
+  color: #414636; /* İkon rengi */
+  margin-right: 8px; /* Yazıdan biraz boşluk bırak */
+  font-size: 1.4em; /* İkon boyutunu ayarla */
+  font-weight: bolder;
+}
 @media (max-width: 1024px) {
   .container2 {
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   }
   .btngroup2 {
     margin-top: 20px;
+  }
+  .icon {
+    font-size: 1.3em; /* İkon boyutunu ayarla */
   }
 }
 
@@ -47,11 +58,10 @@
     font-size: 25px;
     margin-top: 5px;
     line-height: 1.2;
-    text-align: center;
+
     width: 80%;
   }
   .spn {
-    color: black;
     font-size: 28px;
   }
   .btn {
@@ -76,15 +86,16 @@
   .contact-info {
     font-size: 22px;
 
-    line-height: 1.1;
-    text-align: center;
-    width: 90%;
+    line-height: 1.5;
+
     margin: auto;
-    text-align: center;
+    margin-left: 50px;
+  }
+  .icon {
+    font-size: 1.2em;
   }
 
   .spn {
-    color: black;
     font-size: 22px;
   }
   .btn {
@@ -92,5 +103,6 @@
   }
   .newp {
     font-size: 20px;
+    margin: auto;
   }
 }

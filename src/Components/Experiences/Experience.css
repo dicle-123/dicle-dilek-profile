@@ -12,36 +12,63 @@
 
 .span {
   font-size: 25px;
-  color: antiquewhite;
+  font-style: normal;
   font-weight: bolder;
 }
 .pp {
   color: black;
   font-size: 20px;
   font-weight: bold;
-
+  font-style: italic;
   text-align: center;
 }
+/* Merkezi hizalama için container */
+.project-list {
+  list-style-type: none; /* Liste işaretlerini kaldır */
+  padding: 0; /* İç boşlukları sıfırla */
+  display: flex;
+  flex-direction: column; /* Liste elemanlarını dikey hizala */
+  align-items: center; /* Her öğeyi yatayda ortala */
+  justify-content: center; /* Her öğeyi dikeyde ortala */
+  text-align: center; /* Metni ortala */
+}
+
+/* Her bir proje öğesi */
+.project-item {
+  width: 90%; /* Öğenin genişliğini biraz daha daralt */
+  max-width: 700px; /* Maksimum genişlik */
+  /* background-color: rgb(151, 143, 101); */
+  border-radius: 8px; /* Köşeleri yuvarla */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.3s ease; /* Hover efekti */
+}
+
+.project-item:hover {
+  transform: scale(1.05); /* Hover'da büyüme efekti */
+}
+
+/* Başlık için stil */
 .ppp {
-  color: antiquewhite;
-  font-size: 23px;
-  font-weight: bolder;
+  font-size: 1.2em; /* Başlık boyutunu biraz küçült */
+  font-weight: bold;
+  color: #bfbfb0;
 }
 
+/* Paragraf için stil */
 .prag {
-  font-size: 19px;
+  font-size: 16px; /* Paragraf boyutunu küçült */
   color: black;
-  font-weight: 800;
-
-  width: 80%;
-  margin: auto;
-  margin-top: 10px;
+  margin-top: 8px;
+  font-weight: bold;
+  /* Paragraf ile başlık arasında mesafe */
 }
+
 ul {
   list-style: none;
 }
 li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .ff {
@@ -56,9 +83,12 @@ li {
   border-radius: 15px; /* Köşeleri yumuşatmak için */
   max-width: 800px;
   margin: auto;
+  color: rgb(227, 227, 198);
 }
 .h {
   font-size: 38px;
+  color: rgb(246, 246, 219);
+  font-weight: bolder;
 }
 .div {
   text-align: center;
@@ -66,20 +96,45 @@ li {
 }
 
 @media (max-width: 1024px) {
+  .project-item {
+    width: 90%; /* Öğenin genişliğini biraz daha daralt */
+    max-width: 700px; /* Maksimum genişlik */
+    /* background-color: rgb(151, 143, 101); */
+    border-radius: 8px; /* Köşeleri yuvarla */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: transform 0.3s ease; /* Hover efekti */
+  }
+
+  .project-item:hover {
+    transform: scale(1.05); /* Hover'da büyüme efekti */
+  }
   .cont4 {
     display: flex;
     flex-direction: column;
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   }
   .btngroup4 {
-    margin-top: 40px;
-    width: 80%;
-    margin: auto;
+    margin-top: 40px !important;
+    margin-left: 0;
+  }
+
+  .prag {
+    font-size: 17px;
+  }
+  .ppp {
+    font-size: 20px;
+    color: #2c2c22;
+    font-size: 1.4em;
   }
 }
 @media (max-width: 780px) {
   .btngroup4 {
     margin-top: 40px;
+  }
+  .btngroup4 {
+    width: 80%;
   }
   .ff {
     font-size: 27px;
@@ -90,6 +145,9 @@ li {
   .btn {
     font-size: 20px;
   }
+  .h {
+    color: #e2e2c6;
+  }
 }
 @media (max-width: 480px) {
   .btngroup4 {
@@ -98,24 +156,32 @@ li {
   .pp {
     font-size: 19px;
   }
+  .h {
+    color: #e2e2c6;
+    font-size: 35px;
+  }
 
   .span {
-    font-size: 23px;
+    font-size: 22px;
   }
   .ff {
     font-size: 25px;
   }
   .ppp {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: bolder;
   }
   .prag {
-    font-size: 18px;
+    font-size: 17px;
   }
   .div {
     margin: auto;
   }
   .pp {
     width: 100%;
+  }
+  li {
+    text-align: center;
+    margin: auto;
   }
 }

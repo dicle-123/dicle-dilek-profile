@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="bigdiv">
       <div className="container">
-        <img className="cv-image" src="Assets/dicle.jpg" alt="cv-image" />
+        <img className="cv-image" src="Assets/dicle2.jpeg" alt="cv-image" />
         <div>
           <h1 className="h1">DİCLE DİLEK</h1>
           <h1 className="h1">COMPUTER ENGİNEER</h1>

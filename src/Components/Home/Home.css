@@ -2,7 +2,7 @@
   width: 400px;
   height: auto;
   object-fit: cover;
-  border-radius: 60%;
+  border-radius: 40%;
   margin-left: 120px;
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
@@ -16,7 +16,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, rgb(132, 110, 58), rgb(179, 150, 80));
+  background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   font-family: "Roboto", sans-serif;
 }
 
@@ -35,7 +35,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   background-color: rgb(151, 143, 101); /* Altın sarısı bir buton */
-  color: white;
+  color: #f5f5e7;
   width: 700px;
   height: 50px;
   margin-bottom: 20px;
@@ -51,9 +51,14 @@ body {
 .h1 {
   text-align: center;
   font-size: 50px;
-  color: #ffffff;
+  color: #f5f5e7;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
   margin-right: 300px;
+  /* Çok Açık Gri Beyaz: #f5f5f5
+Krem Beyaz: #f8f8f2
+İnci Beyazı: #f0f0f0
+Kırık Beyaz: #f7f7f7
+Yumuşak Bej Beyazı: #fafaf5 */
 }
 .bigdiv {
   background: linear-gradient(
@@ -92,7 +97,7 @@ body {
   .h1 {
     text-align: center;
     font-size: 30px;
-    color: #ffffff;
+    color: #f5f5e7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 10px 0px; /* Alt kenarda 20px boşluk */
   }
@@ -106,6 +111,7 @@ body {
   .btn {
     font-size: 25px; /* Daha küçük font boyutu */
     padding: 10px 15px; /* Padding'i mobil için ayarla */
+    color: #f5f5e7;
   }
 }
 
@@ -135,7 +141,7 @@ body {
   .h1 {
     text-align: center;
     font-size: 30px;
-    color: #ffffff;
+
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 10px 0px; /* Alt kenarda 20px boşluk */
   }
@@ -168,6 +174,12 @@ body {
   .h1 {
     font-size: 23px;
     margin: 0;
+  }
+  .bigdiv {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
+  }
+  body {
+    background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   }
 
   .btn {

@@ -9,10 +9,11 @@
   justify-content: space-around;
   align-items: center;
 }
-.h {
+.h11 {
   text-align: center;
-  font-size: 50px;
-  color: #ffffff;
+  font-size: 41px;
+  color: #f5f5e7;
+  margin-bottom: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
 }
 .h2 {
@@ -24,10 +25,24 @@
   border-radius: 15px; /* Köşeleri yumuşatmak için */
   width: 80%;
 }
+.educations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+}
+.p {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
 @media (max-width: 1024px) {
   .h2 {
     margin: auto;
     font-size: 23px;
+    color: #f5f5e7;
   }
   .btngroup3 {
     display: flex;
@@ -40,8 +55,9 @@
   }
   .p {
     margin: 9px auto;
-    color: #ffffff;
+    color: #e2e2c6;
   }
+
   .containr {
     display: flex;
     flex-direction: column;
@@ -54,8 +70,12 @@
   .containr {
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   }
-  .h {
-    font-size: 45px;
+  .h11 {
+    color: #e2e2c6;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
   .btn {
     font-size: 28px;
@@ -68,13 +88,19 @@
     width: 80%;
     margin-top: 20px;
   }
-  .h {
-    font-size: 35px;
+  .h11 {
+    font-size: 39px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #e2e2c6;
   }
   .h2 {
     width: 80%;
     margin: auto;
     font-size: 22px;
+    color: #f0f0e0;
   }
   body {
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
@@ -82,19 +108,29 @@
   .btn {
     font-size: 25px;
   }
+  .p {
+    color: #e2e2c6;
+  }
 }
 
 @media (max-width: 480px) {
   .btn {
     font-size: 22px;
   }
-  .h {
-    font-size: 32px;
+  .h11 {
+    font-size: 33px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #e2e2c6;
   }
   .h2 {
     font-size: 20px;
+    color: #edede1;
   }
   .p {
     font-size: 20px;
+    color: #ebebdb;
   }
 }

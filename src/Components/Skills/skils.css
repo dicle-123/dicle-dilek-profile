@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 120px;
 }
 .h22 {
   text-align: center;
   font-size: 35px;
 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge ile daha belirgin */
-  color: #ffffff;
+  color: #f5f5e7;
 
   background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
   padding: 5px 10px;
@@ -24,11 +24,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Siyah gölge ile daha belirgin */
   font-weight: bold; /* Yazıyı daha kalın yaparak belirginleştirme */
 }
-/* .btn {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
 
 .btn {
   white-space: nowrap;
@@ -40,10 +35,14 @@
 .skills-list {
   margin-top: 30px;
 }
+.skill-item {
+  color: #f5f5e7;
+}
 
 @media (max-width: 1024px) {
   .div1 {
     display: flex;
+    padding: 20px;
     flex-direction: column;
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
   }
@@ -54,7 +53,7 @@
   .h22 {
     text-align: center;
     font-size: 34px;
-    color: #ffffff;
+    color: #f5f5e7;
     padding: 5px 10px;
     border-radius: 50px; /* Köşeleri yumuşatmak için */
     width: 100%;
@@ -63,19 +62,25 @@
   .ul {
     text-align: center;
   }
+  .skill-item {
+    color: #f5f5e7;
+  }
 }
 
 @media (max-width: 780px) {
   .btngroup2 {
     margin-bottom: 30px;
+    width: 80%;
   }
   .h22 {
     font-size: 29px;
     margin: auto;
+    color: #f5f5e7;
   }
   .ul {
     text-align: center;
     font-size: 28px;
+    color: #f5f5e7;
   }
 
   .btn {
@@ -87,10 +92,20 @@
   .h22 {
     font-size: 25px;
     margin: auto;
+    color: #f5f5e7;
+    margin-bottom: 20px;
   }
   .ul {
+    width: 100%; /* Tam genişlik için ayarlama */
     text-align: center;
     font-size: 24px;
+    color: #f5f5e7;
+    line-height: 2;
+    padding: 0; /* İç boşlukları sıfırlama */
+  }
+  .skill-item {
+    text-align: center; /* Metni ortala */
+    margin: auto; /* Elemanları ortala */
   }
   .btngroup2 {
     margin-top: 20px;

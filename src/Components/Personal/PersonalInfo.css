@@ -2,7 +2,7 @@
   font-size: 30px;
   font-weight: bold;
   max-width: 1000px;
-  color: antiquewhite;
+  color: #f5f5e7;
   text-align: center;
   font-style: oblique;
   margin-top: 20px;
@@ -38,6 +38,7 @@ body {
   .p {
     font-size: 26px;
     width: 80%;
+    color: #f5f5e7;
   }
 
   .container1 {
@@ -57,7 +58,7 @@ body {
   .p {
     font-size: 22px;
     width: 85%;
-    color: #ffffff;
+    color: #f5f5e7;
   }
   .container1 {
     background: linear-gradient(135deg, rgb(199, 143, 15), rgb(198, 176, 120));
@@ -73,7 +74,7 @@ body {
   .p {
     font-size: 21px;
     width: 85%;
-    color: #ffffff;
+    color: #f5f5e7;
     margin-bottom: 0;
     object-fit: cover;
   }
