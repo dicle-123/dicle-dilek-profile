@@ -29,7 +29,7 @@ function PersonalInfo() {
         </button>
       </div>
       <p className="p">
-        I am 31 years old, married, and a mother of one. I was born in Erzurum,
+        I am 29 years old, married, and a mother of one. I was born in Erzurum,
         and I currently live in Diyarbakır. I enjoy doing sports, listening to
         music, and reading books. I am also continuously improving myself in the
         field of software development, striving to stay updated with the latest
